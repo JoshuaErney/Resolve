@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('/Resolve/img/login_background.jpg'); /* Add your background image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+.brand-name {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.brand-description {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;  /* Remove the border */
+    border-bottom: 2px solid #333333; /* Add bottom border only */
+    background: transparent; /* Make the background transparent */
+}
+
+.login-form button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;  /* Set the background to black */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-size: 20px;
+}
+
+.login-form input:focus,
+.login-form input:hover {
+    border-bottom-color: #333333; /* Change the color of the bottom border on hover/focus */
+}
+
+.login-form input:focus {
+    outline: none; /* Add this line to remove the default browser outline */
+    border-bottom-color: #333333;
+}
+
+.login-form button:hover {
+    background-color: #333333; /* Set the hover background to a lighter black */
+}
+
+.form-footer {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.form-footer a {
+    color: #000000;  /* Set the link color to black */
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.form-footer a:hover {
+    color: #333333;  /* Set the hover color to a lighter black */
+    text-decoration: underline;  /* Add an underline on hover */
+}
