@@ -1,8 +1,18 @@
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Shared styles */
 body {
+    
+  }
+  
+  /* Page-specific styles */
+  
+  body.login {
     font-family: 'Roboto', sans-serif;
     background-image: url('/Resolve/img/login_background.jpg'); /* Add your background image */
     background-size: cover;
@@ -12,7 +22,38 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+  }
+
+/* ---------- Navigation Styling - Start ---------- */
+
+
+
+/* ---------- Navigation Styling - End ---------- */
+
+/* ---------- Footer Styling - Start ---------- */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* ---------- Footer Styling - End ---------- */
+
+/* ---------- Login Page Styling - Start ---------- */
 
 .login-container {
     background-color: rgba(255, 255, 255, 1);
@@ -23,7 +64,6 @@ body {
     max-width: 500px;
     width: 100%;
 }
-
 
 .brand-name {
     font-size: 2.5em;
@@ -94,3 +134,5 @@ body {
     color: #333333;  /* Set the hover color to a lighter black */
     text-decoration: underline;  /* Add an underline on hover */
 }
+
+/* ---------- Login Page Styling - End ---------- */
