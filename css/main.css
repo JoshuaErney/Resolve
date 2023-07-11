@@ -1,62 +1,115 @@
-/* Shared styles */
+/* ---------- Shared styles ---------- */
 body {
-    
-  }
-  
-  /* Page-specific styles */
-  
-  body.login {
-    font-family: 'Roboto', sans-serif;
-    background-image: url('/Resolve/img/login_background.jpg'); /* Add your background image */
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ---------- Page-specific styles ---------- */
+body.login {
+    background-image: url('/Resolve/img/login_background.jpg'); 
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
   }
 
-/* ---------- Navigation Styling - Start ---------- */
+  .banner-container {
+    position: relative;
+    display: flex;
+    margin: 1rem 5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Adjust as needed */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Adjust as needed */
+    overflow: hidden; /* To ensure the image also gets the border radius */
+}
 
+.banner-container img {
+    width: 100%;
+    height: 500px;
+}
 
+.banner-text {
+    position: absolute;
+    color: #fff; /* Adjust color as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+}
 
-/* ---------- Navigation Styling - End ---------- */
+/* ---------- Navigation Styling ---------- */
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
 
-/* ---------- Footer Styling - Start ---------- */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 
-.footer-links {
+.nav-links {
+    list-style: none;
     display: flex;
     justify-content: center;
+}
+
+.nav-links a {
+    color: #000000; /* Or whichever color you prefer for the text */
+    text-decoration: none; /* Removes the default underline */
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.auth-buttons ul {
     list-style: none;
-    padding: 0;
+    display: flex;
 }
 
-.footer-links a {
-    color: #fff;
-    text-decoration: none;
+.auth-buttons ul li {
     margin: 0 10px;
+    min-width: 1rem;
+    white-space: nowrap;
 }
 
-/* ---------- Footer Styling - End ---------- */
+.auth-buttons ul li a {
+    padding: 10px 20px;
+    background-color: #000; /* or any color of your choosing */
+    color: #fff; /* or any color of your choosing */
+    border-radius: 5px;
+    text-decoration: none;
+}
 
-/* ---------- Login Page Styling - Start ---------- */
+.auth-buttons ul li a:hover {
+    background-color: #333; /* adjust for your design */
+}
 
+.hamburger-menu {
+    display: none;
+}
+
+/* ---------- Login Page Styling ---------- */
 .login-container {
     background-color: rgba(255, 255, 255, 1);
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
-    max-width: 500px;
+    max-width: 650px;
     width: 100%;
-}
+}  
 
 .brand-name {
     font-size: 2.5em;
@@ -68,11 +121,6 @@ footer {
     margin-bottom: 20px;
 }
 
-.logo {
-    width: 50%;
-    margin-bottom: 20px;
-}
-
 .login-form input {
     display: block;
     width: 100%;
@@ -80,9 +128,9 @@ footer {
     margin: 10px 0;
     box-sizing: border-box;
     font-size: 18px;
-    border: none;  /* Remove the border */
-    border-bottom: 2px solid #333333; /* Add bottom border only */
-    background: transparent; /* Make the background transparent */
+    border: none;
+    border-bottom: 2px solid #333333;
+    background: transparent;
 }
 
 .login-form button {
@@ -90,7 +138,7 @@ footer {
     margin-top: 20px;
     border-radius: 5px;
     border: none;
-    background-color: #000000;  /* Set the background to black */
+    background-color: #000000;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -98,18 +146,8 @@ footer {
     font-size: 20px;
 }
 
-.login-form input:focus,
-.login-form input:hover {
-    border-bottom-color: #333333; /* Change the color of the bottom border on hover/focus */
-}
-
 .login-form input:focus {
-    outline: none; /* Add this line to remove the default browser outline */
-    border-bottom-color: #333333;
-}
-
-.login-form button:hover {
-    background-color: #333333; /* Set the hover background to a lighter black */
+    outline: none;
 }
 
 .form-footer {
@@ -118,14 +156,34 @@ footer {
 }
 
 .form-footer a {
-    color: #000000;  /* Set the link color to black */
+    color: #000000;
     text-decoration: none;
     font-weight:bold;
 }
 
 .form-footer a:hover {
-    color: #333333;  /* Set the hover color to a lighter black */
-    text-decoration: underline;  /* Add an underline on hover */
+    color: #333333;
+    text-decoration: underline;
 }
 
-/* ---------- Login Page Styling - End ---------- */
+/* ---------- Footer Styling ---------- */
+footer {
+    margin-top: auto;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+}

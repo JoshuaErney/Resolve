@@ -1,27 +1,83 @@
-# Resolve: Ticketing & Documentation SaaS Platform
+# Resolve - Your SAAS Solution for IT Professionals
 
-Resolve is a Software as a Service (SaaS) platform that provides comprehensive ticketing and documentation capabilities.
+**Project description
+Resolve is a state-of-the-art, Software as a Service (SAAS) solution specifically designed for IT professionals. We provide a robust platform that simplifies and streamlines documentation and ticketing processes, enabling your team to resolve technical issues more efficiently and effectively.
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Contributions](#contributions)
+***Key Features
 
-## General Info
-The project includes a marketing website and the main application, which includes a ticketing system and a documentation system. Users can create an account, log in, raise tickets, and access a database of documentation.
+1. Comprehensive Documentation System: Our solution allows you to effortlessly create, update, and maintain comprehensive technical documentation. With features like real-time collaboration, version control, and easy access to files, you can ensure that your team always has the most current information at their fingertips.
 
-## Technologies
-This project is created with:
-- HTML5
-- CSS3
-- JavaScript
-- [More technologies to be added as the project develops]
+2. Powerful Ticketing Functionality: Resolve offers a flexible ticketing system designed to adapt to your needs. From issue tracking to escalation, you can manage all aspects of the ticketing process with ease. Automated workflows help streamline tasks, saving your team time and enhancing productivity.
 
-## Installation
-A step-by-step guide on how to install and use the platform will be added as the project develops.
+3. Intuitive User Interface: Our platform is built with usability in mind. With a clean, intuitive interface, your team can quickly navigate the system, access the features they need, and get to work on resolving issues.
 
-## Changelog
+4. Seamless Integrations: Resolve integrates smoothly with a variety of third-party applications, enabling your team to leverage the tools they already use, and making the transition to our platform as smooth as possible.
+
+5. Secure, Reliable, and Scalable: Security is at the core of Resolve. We ensure your data is safe and accessible when you need it. Moreover, our scalable infrastructure allows your platform to grow with you, catering to the needs of both small businesses and large corporations.
+
+***Get Started with Resolve
+
+Starting with Resolve is easy. Sign up for an account, and you’ll have immediate access to all of our features. You can then invite your team members, set up your workflows, and start resolving IT issues more efficiently than ever before.
+
+We believe that technology should simplify processes, not complicate them. Resolve is here to transform the way IT professionals handle documentation and ticketing, empowering you to focus on what truly matters - resolving issues and driving business growth.
+
+For more detailed instructions on how to use Resolve, please see our comprehensive user guide and tutorial videos.
+
+Start your journey with Resolve today, and experience a new era in IT issue resolution.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview of Building the Resolve Platform
+- HTML, CSS, & Javascript
+- Server-side language (Node.js)
+- Database technology (MongoDB)
+- Frontend Framework (React)
+- Backend Framework (Express.js)
+- Authentication (JWT/OAuth)
+- Server (AWS/Google Cloud/Heroku)
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+
+### Changelog
 
 **2023-07-06**
 - - Initial project setup: Initialized the project and set up Git version control.
@@ -43,13 +99,26 @@ A step-by-step guide on how to install and use the platform will be added as the
 -Created the marketing website.
   - Designed a responsive navigation bar: Used flexbox to align items, created links for "Features", "Pricing", "Resources", "Careers", "About", and added a distinct "Sign In" button on the far right.
 
+### Continued development
 
-## Contributions
-Contributions, issues, and feature requests are welcome! 
-Feel free to check [issues page](link to issues).
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-## License
-[Add License information]
+### Useful resources
 
-## Contact
-Created by [Your Name](mailto:yourmail@domain.com) - feel free to contact me!
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+
+## Acknowledgments
+
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
