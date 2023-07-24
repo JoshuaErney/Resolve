@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Resolve</title>
-    <meta name="description" content="Resolve is a cutting-edge, integrated CRM and DMS software solution designed to streamline your customer relationships and document management. Its robust yet user-friendly interface enhances operational efficiency, drives data-driven decisions, and adapts to your business growth, providing a seamless and sustainable pathway to success." />
+    <meta
+      name="description"
+      content="Resolve is a cutting-edge, integrated CRM and DMS software solution designed to streamline your customer relationships and document management. Its robust yet user-friendly interface enhances operational efficiency, drives data-driven decisions, and adapts to your business growth, providing a seamless and sustainable pathway to success."
+    />
     <meta name="author" content="Joshua Erney" />
 
     <link rel="icon" href="/favicon.ico" />
@@ -13,7 +16,10 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="css\reset.css" />
     <link rel="stylesheet" href="css\main.css" />
@@ -21,48 +27,57 @@
   </head>
   <body>
     <header>
-      <span>
-        <h1 class="brand_logo"><a class="nav-link logo" href="index.html" rel="home">Resolve</a></h1>
-      </span>
+      <div>
+        <h1><a id="logo" href="index.html" rel="home">Resolve</a></h1>
+      </div>
       <nav>
-        <ul class="primaryNav">
-          <li class="navMenuItem">
-            <a class="navLink" href="index.html">Home</a>
-          </li>
-          <li class="navMenuItem">
-            <a class="navLink" href="features.html">Features</a>
-          </li>
-          <li class="navMenuItem">
-            <a class="navLink" href="pricing.html">Pricing</a>
-          </li>
-          <li class="navMenuItem">
-            <a class="navLink" href="resources.html">Resources</a>
-          </li>
-          <li class="navMenuItem">
-            <a class="navLink" href="careers.html">Careers</a>
-          </li>
-          <li class="navMenuItem">
-            <a class="navLink" href="contact.html">Contact</a>
-          </li>
-          <li class="navMenuItem">
-            <a class="navLink" href="about.html">About</a>
-          </li>
-        </ul>
-        <ul class="secondaryNav">
-          <li class="navMenuItem">
-            <a class="navLink button" href="login.html">Log In</a>
-          </li>
-          <li class="navMenuItem">
-            <a class="navLink button" href="signup.html">Sign Up</a>
-          </li>
-        </ul>
+        <div class="primaryNav">
+          <ul class="primaryNavList">
+            <li class="navMenuItem">
+              <a class="navLink" href="index.html">Home</a>
+            </li>
+            <li class="navMenuItem">
+              <a class="navLink" href="features.html">Features</a>
+            </li>
+            <li class="navMenuItem">
+              <a class="navLink" href="pricing.html">Pricing</a>
+            </li>
+            <li class="navMenuItem">
+              <a class="navLink" href="resources.html">Resources</a>
+              <ul class="primaryNavSubList">
+                <li class="navSubmenuItem"><a href="#">Careers</a></li>
+                <li class="navSubmenuItem"><a href="#">Documentation</a></li>
+                <li class="navSubmenuItem"><a href="#">Testimonials</a></li>
+              </ul>
+            </li>
+            <li class="navMenuItem">
+              <a class="navLink" href="careers.html">Integrations</a>
+            </li>
+            <li class="navMenuItem">
+              <a class="navLink" href="contact.html">Contact</a>
+            </li>
+            <li class="navMenuItem">
+              <a class="navLink" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="secondaryNav">
+          <ul class="secondaryNavList">
+            <li class="navMenuItem">
+              <a class="navLink button" href="login.html">Log In</a>
+            </li>
+            <li class="navMenuItem">
+              <a class="navLink button" href="signup.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <main></main>
 
     <footer></footer>
-    
+
     <script src="Resolve\js\main.js"></script>
   </body>
 </html>
