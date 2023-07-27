@@ -3,4 +3,54 @@ body {
     font-family: 'Open Sans', sans-serif;
   }
 
+  header {
+    background-color: #153131;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navContainer {
+    display: flex;
+    align-items: center;
+  }
   
+  #logo {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .primaryNav .primaryNavList, .secondaryNav .secondaryNavList {
+    display: flex;
+    gap: 1.5em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .primaryNav .navMenuItem, .secondaryNav .navMenuItem {
+    display: flex;
+  }
+  
+  .primaryNav .navLink, .secondaryNav .navLink {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .primaryNav .navLink:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+  }
+  
+  .primaryNavSubList {
+    display: none;
+  }
+  
+  .navLink.button {
+    padding: 10px 15px;
+    background-color: #EC6A32;
+    color: #fff;
+    border-radius: 5px;
+  }
