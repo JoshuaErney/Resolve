@@ -38,7 +38,7 @@ header {
 }
 
 .primaryNav .navMenuItem {
-  position: relative; /* This enables absolute positioning for child elements */
+  position: relative;
 }
 
 .primaryNav .navMenuItem .primaryNavSubList {
