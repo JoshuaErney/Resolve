@@ -195,3 +195,18 @@ svg {
 a:hover svg {
   fill: #EC6A32;
 }
+
+.copyright-notice {
+  background: #2d3142;
+  color: #fff;
+  padding: 20px;
+  font-size: 0.8em;
+  text-align: center;
+  border-top: 1px solid #EC6A32;
+}
+
+.copyright-notice p {
+  margin: 0;
+  padding: 0.5em 0;
+  line-height: 1.6;
+}
