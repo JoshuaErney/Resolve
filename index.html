@@ -79,41 +79,74 @@
     </header>
 
     <main>
+      <section id="intro">
+        <div class="introContainer">
+          <div class="introText">
+            <h2>Welcome to Resolve</h2>
+            <p>
+              Resolve is more than an investment in software - it's about
+              selecting a committed ally, a dedicated collaborator in your
+              relentless pursuit of business efficiency and streamlined
+              operations."
+            </p>
+            <button class="intro-button">Learn More</button>
+          </div>
+          <div class="introImg">
+            <img src="img\image5.jpg" alt="Introduction to Resolve" />
+          </div>
+        </div>
+      </section>
+
       <section id="pricing">
         <h2>Our Pricing</h2>
-        <div class="pricing-grid">
-          <div class="pricing-plan">
-            <h3>Basic</h3>
-            <p class="price">$9.99</p>
-            <p class="period">per month</p>
-            <ul class="features">
+        <div class="pricing-container">
+          <div class="pricing-plan" id="basic-plan">
+            <h3 class="plan-title">Basic / Trial</h3>
+            <p class="plan-price">$0.00</p>
+            <p class="plan-period">/ month</p>
+            <ul class="plan-features">
               <li>Feature 1</li>
               <li>Feature 2</li>
               <li>Feature 3</li>
             </ul>
-            <a href="#" class="btn-purchase">Purchase</a>
+            <a href="#" class="navLink button">Start Now</a>
           </div>
-          <div class="pricing-plan">
-            <h3>Premium</h3>
-            <p class="price">$19.99</p>
-            <p class="period">per month</p>
-            <ul class="features">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
-            </ul>
-            <a href="#" class="btn-purchase">Purchase</a>
-          </div>
-          <div class="pricing-plan">
-            <h3>Pro</h3>
-            <p class="price">$29.99</p>
-            <p class="period">per month</p>
-            <ul class="features">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
-            </ul>
-            <a href="#" class="btn-purchase">Purchase</a>
+          <div class="pricing-grid">
+            <div class="pricing-plan">
+              <h3 class="plan-title">Pro</h3>
+              <p class="plan-price">$9.99</p>
+              <p class="plan-period">/ month</p>
+              <ul class="plan-features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+              </ul>
+              <a href="#" class="navLink button">Purchase</a>
+            </div>
+
+            <div class="pricing-plan">
+              <h3 class="plan-title">Premium</h3>
+              <p class="plan-price">$19.99</p>
+              <p class="plan-period">/ month</p>
+              <ul class="plan-features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+              </ul>
+              <a href="#" class="navLink button">Purchase</a>
+            </div>
+
+            <div class="pricing-plan">
+              <h3 class="plan-title">Ultimate</h3>
+              <p class="plan-price">$49.99</p>
+              <p class="plan-period">/ month</p>
+              <ul class="plan-features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+              </ul>
+              <a href="#" class="navLink button">Purchase</a>
+            </div>
           </div>
         </div>
       </section>
@@ -145,7 +178,7 @@
           <h4>Resources</h4>
           <ul>
             <li><a href="faq.html">FAQ</a></li>
-            <li><a href="documentation.html">Documentation</a></li>
+            <li><a href="support.html">Support</a></li>
             <li><a href="blog.html">Blog</a></li>
           </ul>
         </div>
@@ -210,34 +243,6 @@
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="2em"
-                  viewBox="0 0 496 512"
-                >
-                  <path
-                    d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" target="_blank">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="2em"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" target="_blank">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="2em"
                   viewBox="0 0 512 512"
                 >
                   <path
@@ -252,13 +257,12 @@
       <!-- Copyright notice -->
       <div class="copyright-notice">
         <p>
-          © 2023 Resolve. All rights reserved. No part of this website
-          may be reproduced, distributed, or transmitted in any form or by any
-          means, including photocopying, recording, or other electronic or
-          mechanical methods, without the prior written permission of the
-          copyright owner, except in the case of brief quotations embodied in
-          critical reviews and certain other noncommercial uses permitted by
-          copyright law.
+          © 2023 Resolve. All rights reserved. No part of this website may be
+          reproduced, distributed, or transmitted in any form or by any means,
+          including photocopying, recording, or other electronic or mechanical
+          methods, without the prior written permission of the copyright owner,
+          except in the case of brief quotations embodied in critical reviews
+          and certain other noncommercial uses permitted by copyright law.
         </p>
       </div>
     </footer>
