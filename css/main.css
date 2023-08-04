@@ -210,7 +210,6 @@ header {
 }
 
 #pricing h2 {
-  margin-bottom: 50px;
   font-size: 2em;
   color: #2d3142;
 }
@@ -226,12 +225,32 @@ header {
 #basic-plan {
   width: 80%;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
-#basic-plan .plan-price {
+#basic-plan .plan-price, #basic-plan .plan-period {
   color: white;
+  font-size: 1.5em;
+}
+
+#basic-plan .plan-title {
+  flex: 2;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.plan-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.plan-features {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2em;
 }
 
 #basic-plan .button {
@@ -243,13 +262,11 @@ header {
   border: 2px solid #2d3142;
   border-radius: 25px;
   transition: all 0.3s ease;
-  margin-top: 20px;
 }
 
 #basic-plan .button:hover {
   background-color: #2d3142;
   color: #fff;
-  transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -279,10 +296,6 @@ header {
   background-color: #EC6A32;
   color: #fff;
   max-width: none;
-}
-
-.pricing-plan h3, .pricing-plan p, .pricing-plan ul {
-  margin-bottom: 20px;
 }
 
 .pricing-plan .plan-price {
