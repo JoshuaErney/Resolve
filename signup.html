@@ -13,19 +13,23 @@
         <p class="brand-description">Sign Up</p>
 
         <form id="form">
+            <div class="input-group">
+                <input type="text" id="first-name" name="first-name" required placeholder="First Name">
 
-            <input type="text" id="first-name" name="first-name" required placeholder="First Name"><br><br>
+                <input type="text" id="last-name" name="last-name" required placeholder="Last Name">
+            </div>
 
-            <input type="text" id="last-name" name="last-name" required placeholder="Last Name"><br><br>
+            <input type="email" id="email" name="email" required placeholder="Email">
 
-            <input type="email" id="email" name="email" required placeholder="Email"><br><br>
+            <input type="password" id="password" name="password" required placeholder="Password">
 
-            <input type="password" id="password" name="password" required placeholder="Password"><br><br>
+            <input type="password" id="confirm-password" name="confirm-password" required
+                placeholder="Confirm Password">
+            <div class="show-password-container">
+                <label for="show-password">Show Password:</label>
+                <input type="checkbox" class="show-password-checkbox">
+            </div>
 
-            <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm Password"><br><br>
-
-            <label for="show-password">Show Password:</label>
-            <input type="checkbox" id="show-password"><br><br>
 
             <button type="submit">Sign Up</button>
         </form>
@@ -33,7 +37,7 @@
         <script>
             const passwordInput = document.getElementById("password");
             const confirmPasswordInput = document.getElementById("confirm-password");
-            const showPasswordCheckbox = document.getElementById("show-password");
+            const showPasswordCheckbox = document.querySelector('.show-password-checkbox');
 
             showPasswordCheckbox.addEventListener("change", function () {
                 if (showPasswordCheckbox.checked) {
