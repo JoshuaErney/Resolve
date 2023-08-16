@@ -201,65 +201,52 @@ header {
 
 /* -------------- Features Panel ---------------- */
 
-#features-showcase {
-  padding: 50px 0;
-  background: #ffffff;
-}
-
-.features-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+#features {
   max-width: 1200px;
-  margin: 0 auto;
-  gap: 20px;
-}
-
-.feature-item {
-  flex: 1;
-  background: #f9f9f9;
-  border-radius: 10px;
+  margin: 50px auto;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: calc(33.33% - 20px);
+  background-color: #2d3142;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the features box */
+}
+
+#features h1 {
   text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s;
+  color: #333; /* Placeholder color */
+  margin-bottom: 50px;
 }
 
-.feature-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}
-
-.feature-item h3 {
-  color: #ec6a32;
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-.feature-item p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #555;
-}
-
-/* Feature Icon Styling */
-
-.feature-icon {
-  width: auto;
-  height: 60px;
-  margin: 0 auto 20px;
-  background-color: #EC6A32; 
+.feature {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s; 
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ec6a32; /* Color for the background of each feature */
+  border-radius: 5px; /* Adds a bit of rounding to the corners for aesthetics */
+  margin-bottom: 20px; /* Space between features */
+  padding: 20px 0;
 }
 
-.feature-item:hover .feature-icon {
-  transform: scale(1.1);
+.feature:last-child {
+  border-bottom: none;
 }
 
+.feature h2 {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.feature h2 span {
+  font-size: 0.8em;
+  color: #ffffff99;
+}
+
+.feature ul {
+  margin-top: 20px;
+}
+
+.feature li {
+  margin-bottom: 10px;
+  color: #fff;
+}
 
 /* -------------- Pricing Panel ---------------- */
 

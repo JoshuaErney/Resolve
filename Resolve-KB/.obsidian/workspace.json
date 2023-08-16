@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "65ba81e5e26a39fc",
+        "id": "de37641c5d077e02",
         "type": "tabs",
         "children": [
           {
-            "id": "cf5e59475e953868",
+            "id": "e136a6314509f785",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What is Resolve.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "What is Resolve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "What is Resolve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "What is Resolve.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf5e59475e953868",
+  "active": "e136a6314509f785",
   "lastOpenFiles": [
-    "What is Resolve.md"
+    "What is Resolve.md",
+    "Resolve's Features & Functionalities.md",
+    "Resolve Features.md"
   ]
 }
