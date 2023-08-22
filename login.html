@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="css\reset.css">
-  <link rel="stylesheet" href="css\account.css" />
-  <title>Login - Resolve | Ticketing & Documentation System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css\reset.css" />
+    <link rel="stylesheet" href="css\account.css" />
+    <title>Log In - Resolve | Ticketing & Documentation System</title>
 </head>
-
-<body class="login">
-  <div class="container">
-    <h1 class="brand-name">Resolve</h1>
-    <p class="brand-description">Your Ticketing & Documentation Solution</p>
-    <form class="form">
-      <input type="text" id="username" placeholder="Username" />
-      <input type="password" id="password" placeholder="Password" />
-      <button type="submit">Log In</button>
-    </form>
-    <div class="form-footer">
-      <p>Don't have an account? <a href="#">Create one</a></p>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="input-group">
+                <label for="username">Username or Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <p>Don't have an account? <a href="/signup">Sign Up</a></p>
     </div>
-  </div>
 </body>
-
 </html>

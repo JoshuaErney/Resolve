@@ -1,134 +1,80 @@
-/* General styling */
+/* Basic Resets and Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #4F5D75;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin: 0;
+  height: 100vh;
 }
 
 .container {
-  text-align: center;
   background-color: #2D3142;
-  border-radius: 12px;
-  padding: 50px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  max-width: 450px;
-  width: 100%;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
 }
 
-.brand-name {
-  font-size: 36px;
-  font-weight: 700;
-  color: #EC6A32;
-  margin-bottom: 15px;
+h2 {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.brand-description {
-  font-size: 18px;
-  font-weight: 500;
-  color: #FCFCFC;
-  margin-bottom: 25px;
+.input-group {
+  margin-bottom: 2rem;
 }
 
-.form, #form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+label {
+  color: #BFC0C0;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
 }
 
 input {
   width: 100%;
-  padding: 12px 0;
-  border: none;
-  border-bottom: 2px solid #ddd;
-  background-color: transparent;
-  transition: border-color 0.3s ease;
-  position: relative;
-  color: #FCFCFC; 
-}
-
-input::placeholder {
-  color: rgba(252, 252, 252, 0.7);
-}
-
-input:focus {
-  outline: none;
-  border-bottom-color: #EC6A32;
-}
-
-input:hover:not(:focus) {
-  border-bottom-color: #EF8354;
-}
-
-#first-name, #last-name {
-  flex: 1;
+  padding: 1rem;
+  border: 1px solid #BFC0C0; /* Slight border for better accessibility */
+  border-radius: 5px;
+  background-color: #EAEAEA;
+  font-size: 1rem;
+  color: #333;
 }
 
 button {
-  background-color: #EC6A32;
-  color: #fff;
-  padding: 12px 25px;
+  width: 100%;
+  padding: 1rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
+  background-color: #4FC1A6; 
+  color: #FFFFFF;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  font-size: 1rem;
 }
 
 button:hover {
-  transform: scale(1.05);
+  background-color: #3BA691;
 }
 
-.form-footer {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #FCFCFC;
+p {
+  color: #BFC0C0;
+  text-align: center;
+  font-size: 1rem;
 }
 
-.form-footer a {
-  color: #EF8354;
+a {
+  color: #4FC1A6;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
-.form-footer a:hover {
-  color: #EC6A32;
-}
-
-.show-password-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.show-password-container label {
-  font-weight: 500;
-  color: #fff;
-}
-
-.show-password-checkbox {
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 5px;
-  position: relative;
-  cursor: pointer;
-  outline: none;
-  border: 2px solid #fff;
-  transition: background-color 0.3s ease;
-}
-
-.show-password-checkbox:checked::after {
-  content: "\2713";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #EC6A32;
-}
-
-.show-password-checkbox:focus {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+a:hover {
+  text-decoration: underline;
 }
