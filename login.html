@@ -15,32 +15,33 @@
   </head>
   <body>
     <main>
-        <h1>Welcome to Resolve</h1>
-        
-        <form action="/login" method="post">
-            <fieldset>
-                <legend>Login Details</legend>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" autocomplete="email" required aria-required="true" placeholder="you@example.com">
-                
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" autocomplete="current-password" required aria-required="true">
-            </fieldset>
-            
-            <div>
-                <input type="checkbox" id="rememberMe" name="rememberMe">
-                <label for="rememberMe">Remember me</label>
+      <div class="login-container">
+        <!-- Left side -->
+        <div class="login-left">
+          <h2 class="section-title">Resolve Login</h2>
+            <div class="input-container">
+                <label for="subdomain" class="visually-hidden">Subdomain</label>
+                <input type="text" id="subdomain" placeholder="Subdomain" required />
             </div>
-            
-            <div>
-                <button type="submit">Login</button>
+            <div class="input-container">
+                <label for="email" class="visually-hidden">Email or Username</label>
+                <input type="email" id="email" placeholder="Email or Username" required />
             </div>
-            
-            <div>
-                <a href="/forgot-password">Forgot password?</a>
+            <div class="input-container">
+                <label for="password" class="visually-hidden">Password</label>
+                <input type="password" id="password" placeholder="Password" required />
             </div>
-        </form>
+            <button class="forgot-btn">Forgot Password?</button>
+        </div>
+    
+        <!-- Right side -->
+        <div class="login-right">
+          <h2 class="section-title">Additional Login Options</h2>
+            <button class="alt-login-btn sso">Enterprise SSO</button>
+            <button class="alt-login-btn microsoft">Microsoft Login</button>
+            <button class="alt-login-btn github">GitHub Login</button>
+        </div>
+    </div>    
     </main>
   </body>
 </html>

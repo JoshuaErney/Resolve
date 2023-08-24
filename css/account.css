@@ -1,102 +1,138 @@
+/* Base and layout styles */
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: #f3f4f6;
-  color: #333;
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  height: 100vh;
 }
 
-main {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  padding: 2em 5%;
-  margin: 0 auto;
-  
+.login-container {
+  display: flex;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 75px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  font-weight: 600;
-  font-size: 1.5em;
-  margin-bottom: 1em;
+.login-left {
+  position: relative;
+  padding-right: 60px;
+  margin-right: 60px;
+}
+
+.login-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Input fields and associated styles */
+.input-container {
+  margin-bottom: 25px;
+  position: relative;
+  width: 500px;
+}
+
+.section-title {
+  font-size: 1.5rem;
   text-align: center;
-}
-
-p {
-  text-align: center;
-  margin-bottom: 1.5em;
-}
-
-label {
-  display: block;
+  margin-bottom: 1rem;
   font-weight: 600;
-  margin-bottom: 0.8em;
+  color: #333;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="tel"],
-textarea,
-select {
+.input-container input {
   width: 100%;
-  padding: 0.8em;
-  border: 1px solid #e1e4e8;
-  border-radius: 4px;
-  background-color: #f9f9f9;
-  font-size: 1em;
-  margin-bottom: 1.5em;
-  transition: border-color 0.3s ease;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="tel"]:focus,
-textarea:focus,
-select:focus {
-  border-color: #667eea;
-  outline: none;
-}
-
-button {
-  width: 100%;
-  background-color: #667eea;
-  color: #fff;
+  padding: 15px 20px;
   border: none;
-  padding: 1em;
-  font-size: 1em;
-  border-radius: 4px;
+  border-radius: 25px;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.input-container::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  right: 20px;
+  height: 2px;
+  background-color: #aaa;
+  z-index: 0;
+}
+
+.input-container input::placeholder {
+  color: #aaa;
+}
+
+/* Buttons and interactive elements */
+.forgot-btn {
+  background: transparent;
+  border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  color: #0077b6;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-top: 20px;
+  transition: color 0.3s ease;
 }
 
-button:hover {
-  background-color: #5a6eda;
-}
-
-a {
-  text-align: center;
-  display: block;
-  margin-top: 1em;
-  color: #667eea;
-  text-decoration: none;
-}
-
-a:hover {
+.forgot-btn:hover {
+  color: #005fa3;
   text-decoration: underline;
 }
 
-fieldset {
+.alt-login-btn {
+  padding: 12px 30px;
   border: none;
-  padding: 0;
-  margin: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
-legend {
-  font-weight: 600;
-  margin-bottom: 1em;
+.github, .microsoft, .sso {
+  background: linear-gradient(135deg, #333, #1a1a1a);
+  color: white;
+}
+
+.github:hover, .microsoft:hover, .sso:hover {
+  background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+}
+
+/* Misc and utility styles */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.login-left::after {
+  content: "";
+  position: absolute;
+  top: 0; 
+  bottom: 0;
+  right: 0;
+  width: 2px;
+  background-color: #aaa;
 }
