@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "de37641c5d077e02",
+        "id": "e0bb2e6d06740028",
         "type": "tabs",
         "children": [
           {
-            "id": "e136a6314509f785",
+            "id": "da81b0faf03e64b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resolve Features.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b07b572239908b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What is Resolve.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d04cdd5e07e2bdbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resolve - Color Palette.md",
+                "file": "Resolve - Design Guidelines.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resolve - Color Palette.md",
+                "file": "Resolve - Design Guidelines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resolve - Color Palette.md",
+                "file": "Resolve - Design Guidelines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resolve - Color Palette.md"
+                "file": "Resolve - Design Guidelines.md"
               }
             }
           }
@@ -171,12 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d04cdd5e07e2bdbf",
+  "active": "da81b0faf03e64b0",
   "lastOpenFiles": [
-    "What is Resolve.md",
-    "Resolve - Color Palette.md",
-    "Resolve's Features & Functionalities.md",
     "Resolve Features.md",
+    "Resolve's Features & Functionalities.md",
+    "What is Resolve.md",
+    "Untitled.canvas",
+    "Resolve - Color Palette.md",
     "Resolve - Design Guidelines.md"
   ]
 }
