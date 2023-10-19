@@ -199,55 +199,6 @@ header {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* -------------- Features Panel ---------------- */
-
-#features {
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #2d3142;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the features box */
-}
-
-#features h1 {
-  text-align: center;
-  color: #333; /* Placeholder color */
-  margin-bottom: 50px;
-}
-
-.feature {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: #ec6a32; /* Color for the background of each feature */
-  border-radius: 5px; /* Adds a bit of rounding to the corners for aesthetics */
-  margin-bottom: 20px; /* Space between features */
-  padding: 20px 0;
-}
-
-.feature:last-child {
-  border-bottom: none;
-}
-
-.feature h2 {
-  font-size: 1.5em;
-  color: #fff;
-}
-
-.feature h2 span {
-  font-size: 0.8em;
-  color: #ffffff99;
-}
-
-.feature ul {
-  margin-top: 20px;
-}
-
-.feature li {
-  margin-bottom: 10px;
-  color: #fff;
-}
-
 /* -------------- Pricing Panel ---------------- */
 
 #pricing {

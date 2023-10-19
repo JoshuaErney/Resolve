@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0b07b572239908b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What is Resolve.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d04cdd5e07e2bdbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resolve - Color Palette.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resolve Features.md",
+                "file": "Resolve - Color Palette.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resolve Features.md",
+                "file": "Resolve - Color Palette.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resolve Features.md"
+                "file": "Resolve - Color Palette.md"
               }
             }
           }
@@ -146,10 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e136a6314509f785",
+  "active": "d04cdd5e07e2bdbf",
   "lastOpenFiles": [
-    "Resolve's Features & Functionalities.md",
     "What is Resolve.md",
-    "Resolve Features.md"
+    "Resolve - Color Palette.md",
+    "Resolve's Features & Functionalities.md",
+    "Resolve Features.md",
+    "Resolve - Design Guidelines.md"
   ]
 }
