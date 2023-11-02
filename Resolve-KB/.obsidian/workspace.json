@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resolve - Design Guidelines.md",
+                "file": "Resolve Features.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resolve - Design Guidelines.md",
+                "file": "Resolve Features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resolve - Design Guidelines.md",
+                "file": "Resolve Features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resolve - Design Guidelines.md"
+                "file": "Resolve Features.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "da81b0faf03e64b0",
   "lastOpenFiles": [
-    "Resolve Features.md",
     "Resolve's Features & Functionalities.md",
     "What is Resolve.md",
-    "Untitled.canvas",
+    "Resolve Features.md",
     "Resolve - Color Palette.md",
-    "Resolve - Design Guidelines.md"
+    "Resolve - Design Guidelines.md",
+    "Untitled.canvas"
   ]
 }

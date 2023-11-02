@@ -28,236 +28,57 @@
   <body>
     <header>
       <h1><a id="logo" href="index.html" rel="home">Resolve</a></h1>
-      <nav class="navContainer">
-        <div class="primaryNav">
-          <ul class="primaryNavList">
-            <li class="navMenuItem">
-              <a class="navLink" href="index.html">Home</a>
-            </li>
-            <li class="navMenuItem">
-              <a class="navLink" href="features.html">Features</a>
-            </li>
-            <li class="navMenuItem">
-              <a class="navLink" href="pricing.html">Pricing</a>
-            </li>
-            <li class="navMenuItem">
-              <a class="navLink" href="resources.html">Resources</a>
-              <ul class="primaryNavSubList">
-                <li class="navSubmenuItem">
-                  <a class="navLink" href="documentation.html">Documentation</a>
-                </li>
-                <li class="navSubmenuItem">
-                  <a class="navLink" href="testimonials.html">Testimonials</a>
-                </li>
-                <li class="navSubmenuItem">
-                  <a class="navLink" href="integrations.html">Integrations</a>
-                </li>
-              </ul>
-            </li>
-            <li class="navMenuItem">
-              <a class="navLink" href="careers.html">Careers</a>
-            </li>
-            <li class="navMenuItem">
-              <a class="navLink" href="contact.html">Contact</a>
-            </li>
-            <li class="navMenuItem">
-              <a class="navLink" href="about.html">About</a>
-            </li>
-          </ul>
-        </div>
-        <div class="secondaryNav">
-          <ul class="secondaryNavList">
-            <li class="navMenuItem">
-              <a class="navLink button" href="login.html">Log In</a>
-            </li>
-            <li class="navMenuItem">
-              <a class="navLink button" href="registration.html">Register</a>
-            </li>
-          </ul>
-        </div>
-        <div class="theme-toggle">
-          <span class="sun-icon">☀️</span>
-          <label class="switch">
-            <input type="checkbox" id="themeSwitch">
-            <span class="slider round"></span>
-          </label>
-          <span class="moon-icon">🌙</span>
-        </div>
-        
+      <!-- Search Box -->
+      <div id="search-box">
+        <form action="/search" method="get">
+          <input
+            type="text"
+            name="q"
+            aria-label="Search"
+            placeholder="Search..."
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <nav class="navContainer" aria-label="Main navigation">
+        <ul class="primaryNavList">
+          <!-- Navigation Items -->
+          <li class="navMenuItem">
+            <a class="navLink" href="features.html">Features</a>
+          </li>
+          <li class="navMenuItem">
+            <a class="navLink" href="resources.html">Resources</a>
+          </li>
+          <li class="navMenuItem">
+            <a class="navLink" href="careers.html">Careers</a>
+          </li>
+          <li class="navMenuItem">
+            <a class="navLink" href="about.html">About</a>
+          </li>
+          <!-- Optional Pricing Link -->
+          <li class="navMenuItem">
+            <a class="navLink" href="pricing.html">Pricing</a>
+          </li>
+          <!-- Optional Contact Link -->
+          <li class="navMenuItem">
+            <a class="navLink" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </nav>
+      <!-- User Account Links -->
+      <div class="userAccountLinks">
+        <a href="login.html">Log In</a>
+        <span>|</span>
+        <a href="create-account.html">Create Account</a>
+      </div>
     </header>
-    <main>
 
-      <!-- Resolve is more than an investment in software - it's about
-              selecting a committed ally, a dedicated collaborator in your
-              relentless pursuit of business efficiency and streamlined
-              operations. 
-          -->
-
-
-      <!-- <section id="features">
-        <h1>Resolve Features</h1>
-
-        <div class="feature">
-          <h2>Comprehensive Integration</h2>
-          <ul>
-            <li>Seamless interconnection between Helpdesk Ticketing and Documentation.</li>
-            <li>Bridge the gap with robust search across both platforms.</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Advanced AI Assistance <span>(Optional Add-on)</span></h2>
-          <ul>
-            <li>Enhance information organization and sorting.</li>
-            <li> Potential future integrations to further streamline user experience.</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Intuitive User Interface</h2>
-          <ul>
-            <li>Pre-designed templates for quick input.</li>
-            <li>Drag and drop functionality.</li>
-            <li>Auto-suggestions to assist data entry.</li>
-            <li>Dynamic visualization tools: charts, graphs, and more.</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Collaborative Workflows</h2>
-          <ul>
-            <li>Real-time collaboration on documentation.</li>
-            <li>Secure ticketing system that ensures data integrity.</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Dashboard Customization</h2>
-          <ul>
-            <li>Personalized dashboards for optimal user experience.</li>
-            <li>Administrative control over agent-viewable data.</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Maximum Security</h2>
-          <ul>
-            <li>High-priority focus on data privacy.</li>
-            <li>Two-factor authentication, role-based access, and data encryption</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Efficient Organization</h2>
-          <ul>
-            <li>Tags, folders, and categories for structured documentation.</li>
-            <li>Advanced filters to refine search results.</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Timely Notifications</h2>
-          <ul>
-            <li>Real-time push notifications.</li>
-            <li>Comprehensive email alerts and in-platform notifications.</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Mobile Capability (Coming Soon)</h2>
-          <ul>
-            <li>Initial basic functionality with expansive plans for a full-feature app.</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Support & Training</h2>
-          <ul>
-            <li>In-built knowledge base for immediate assistance.</li>
-            <li>Live-chat support and thriving community forums for peer assistance.</li>
-          </ul>
-        </div>
-
-        <div class="feature">
-          <h2>Future-proof Compatibility</h2>
-          <ul>
-            <li>Browser agnostic platform for consistent experience.</li>
-            <li>Planned third-party integrations to enhance utility.</li>
-          </ul>
-        </div>
-      </section> -->
-
-      <section id="pricing">
-        <h2>Our Pricing</h2>
-        <div class="pricing-grid">
-          <div class="pricing-plan">
-            <h3 class="plan-title">Basic</h3>
-            <p class="plan-subtitle">(90 day Trial period)</p>
-            <p class="plan-price">Free</p>
-            <p class="plan-period">/ Month</p>
-            <ul class="plan-features">
-              <li>Ticket Creation</li>
-              <li>Knowledge Base Access</li>
-              <li>Ticket Status Tracking</li>
-              <li>Admin Portal Access</li>
-              <li>Email Support</li>
-            </ul>
-            <a href="#" class="navLink button">Start Now</a>
-          </div>
-
-          <div class="pricing-plan">
-            <h3 class="plan-title">Pro</h3>
-            <p class="plan-subtitle">(Includes all Basic features)</p>
-            <p class="plan-price">$99.99</p>
-            <p class="plan-period">/ month</p>
-            <ul class="plan-features">
-              <li>Advanced Reporting</li>
-              <li>Third-Party Tools Integration</li>
-              <li>Ticket Assignment</li>
-              <li>API Access</li>
-              <li>Advanced Search</li>
-            </ul>
-            <a href="#" class="navLink button">Purchase</a>
-          </div>
-
-          <div class="pricing-plan">
-            <h3 class="plan-title">Premium</h3>
-            <p class="plan-subtitle">(Includes all Pro features)</p>
-            <p class="plan-price">$149.99</p>
-            <p class="plan-period">/ month</p>
-            <ul class="plan-features">
-              <li>Priority Support</li>
-              <li>Custom Branding</li>
-              <li>Bulk Ticket Operations</li>
-              <li>Feedback Portal</li>
-              <li>Custom Integrations</li>
-            </ul>
-            <a href="#" class="navLink button">Purchase</a>
-          </div>
-
-          <div class="pricing-plan">
-            <h3 class="plan-title">Ultimate</h3>
-            <p class="plan-subtitle">(Includes all Premium features)</p>
-            <p class="plan-price">$199.99</p>
-            <p class="plan-period">/ month</p>
-            <ul class="plan-features">
-              <li>Custom Documentation</li>
-              <li>Dedicated Support Agent</li>
-              <li>Onboarding Training</li>
-              <li>Unlimited Documentation Storage</li>
-              <li>SLA Guarantees</li>
-            </ul>
-            <a href="#" class="navLink button">Purchase</a>
-          </div>
-        </div>
-      </section>
-    </main>
+    <main></main>
 
     <footer>
       <div class="footer-container">
         <!-- Company information -->
-        <div class="footer-section">
+        <nav aria-label="Company information">
           <h4>Company</h4>
           <ul>
             <li><a href="about.html">About Us</a></li>
@@ -265,96 +86,34 @@
             <li><a href="careers.html">Careers</a></li>
             <li><a href="press.html">Press</a></li>
           </ul>
-        </div>
+        </nav>
         <!-- Product/Service information -->
-        <div class="footer-section">
+        <nav aria-label="Product information">
           <h4>Product</h4>
           <ul>
             <li><a href="features.html">Features</a></li>
             <li><a href="pricing.html">Pricing</a></li>
             <li><a href="integrations.html">Integrations</a></li>
           </ul>
-        </div>
+        </nav>
         <!-- Support and resources -->
-        <div class="footer-section">
+        <nav aria-label="Resources">
           <h4>Resources</h4>
           <ul>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="support.html">Support</a></li>
             <li><a href="blog.html">Blog</a></li>
           </ul>
-        </div>
+        </nav>
         <!-- Legal links -->
-        <div class="footer-section">
+        <nav aria-label="Legal links">
           <h4>Legal</h4>
           <ul>
             <li><a href="terms.html">Terms of Service</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
             <li><a href="cookie.html">Cookie Policy</a></li>
           </ul>
-        </div>
-
-        <!-- Social media links -->
-        <div class="footer-section">
-          <h3>Follow Us</h3>
-          <ul class="social-icons">
-            <li>
-              <a href="#" target="_blank">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="2em"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" target="_blank">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="2em"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" target="_blank">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="2em"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" target="_blank">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="2em"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-                  />
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+        </nav>
       </div>
       <!-- Copyright notice -->
       <div class="copyright-notice">

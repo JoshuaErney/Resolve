@@ -22,10 +22,112 @@
     />
 
     <link rel="stylesheet" href="css\reset.css" />
+    <link rel="stylesheet" href="css\main.css" />
     <link rel="stylesheet" href="css\responsive.css" />
   </head>
   <body>
-    
+    <header>
+      <h1><a id="logo" href="index.html" rel="home">Resolve</a></h1>
+      <!-- Search Box -->
+      <div id="search-box">
+        <form action="/search" method="get">
+          <input
+            type="text"
+            name="q"
+            aria-label="Search"
+            placeholder="Search..."
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <nav class="navContainer" aria-label="Main navigation">
+        <ul class="primaryNavList">
+          <!-- Navigation Items -->
+          <li class="navMenuItem">
+            <a class="navLink" href="features.html">Features</a>
+          </li>
+          <li class="navMenuItem">
+            <a class="navLink" href="resources.html">Resources</a>
+          </li>
+          <li class="navMenuItem">
+            <a class="navLink" href="careers.html">Careers</a>
+          </li>
+          <li class="navMenuItem">
+            <a class="navLink" href="about.html">About</a>
+          </li>
+          <!-- Optional Pricing Link -->
+          <li class="navMenuItem">
+            <a class="navLink" href="pricing.html">Pricing</a>
+          </li>
+          <!-- Optional Contact Link -->
+          <li class="navMenuItem">
+            <a class="navLink" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- User Account Links -->
+      <div class="userAccountLinks">
+        <a href="login.html">Log In</a>
+        <span>|</span>
+        <a href="create-account.html">Create Account</a>
+      </div>
+    </header>
+
+    <main></main>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Company information -->
+        <nav aria-label="Company information">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="press.html">Press</a></li>
+          </ul>
+        </nav>
+        <!-- Product/Service information -->
+        <nav aria-label="Product information">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="integrations.html">Integrations</a></li>
+          </ul>
+        </nav>
+        <!-- Support and resources -->
+        <nav aria-label="Resources">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+        <!-- Legal links -->
+        <nav aria-label="Legal links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="cookie.html">Cookie Policy</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Copyright notice -->
+      <div class="copyright-notice">
+        <p>
+          © 2023 Resolve. All rights reserved. No part of this website may be
+          reproduced, distributed, or transmitted in any form or by any means,
+          including photocopying, recording, or other electronic or mechanical
+          methods, without the prior written permission of the copyright owner,
+          except in the case of brief quotations embodied in critical reviews
+          and certain other noncommercial uses permitted by copyright law.
+        </p>
+      </div>
+    </footer>
+
     <script src="Resolve\js\main.js"></script>
   </body>
 </html>
